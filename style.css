@@ -1,0 +1,40 @@
+@media (display-mode:browser){
+   .box{
+    height: 200px;
+    background-color: antiquewhite;
+    border: 3px solid black;
+    aspect-ratio: 2/1;
+   }
+}
+@media (orientation: portrait){
+    .box{
+        height: 200px;
+        background-color: antiquewhite;
+        border: 3px solid black;
+        aspect-ratio: 2/1;
+}
+}
+@media (orientation: landscape){
+    .box{
+        height: 200px;
+        background-color: rgb(110, 200, 75);
+        border: 3px solid black;
+        aspect-ratio: 2/1;
+        float: left;
+}
+}
+@media (display-mode:fullscreen){
+ .box{
+    font-size: larger;
+    background-color: rgb(48, 163, 235);
+    border: 3px dashed rgb(198, 26, 26);
+ }
+} 
+
+input{
+    accent-color: red;
+}
+h1,h2,:has(h3){
+    font-weight: bolder;
+    color: aqua;
+}
